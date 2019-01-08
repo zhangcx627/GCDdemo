@@ -18,7 +18,7 @@
 #import "GCDManager+GCDLock_Synchronized.h"
 #import "GCDManager+GCDLock_NSLock.h"
 #import "GCDManager+GCDPriority.h"
-
+#import "GCDManager+GCDBarriar.h"
 
 
 
@@ -34,7 +34,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.cellArray = [NSMutableArray arrayWithObjects:@"串行",@"并行",@"信号量",@"错误卡主线程",@"主线程调用异步",@"GCDGroup",@"GCDGroup Use Enter & Leave", @"GCDLock Use Semaphore", @"GCDLock Use Synchronized",@"GCDLock Use NSLock",@"优先级", nil];
+    self.cellArray = [NSMutableArray arrayWithObjects:@"串行",@"并行",@"信号量",@"错误卡主线程",@"主线程调用异步",@"GCDGroup",@"GCDGroup Use Enter & Leave", @"GCDLock Use Semaphore", @"GCDLock Use Synchronized",@"GCDLock Use NSLock",@"优先级",@"GCDBarriar", nil];
 
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"GCDCell"];
 }
@@ -84,6 +84,8 @@
         [[GCDManager sharedInstance] GCDLock_NSLock];
     } else if (indexPath.row == 10) {
         [[GCDManager sharedInstance] GCDPriority];
+    } else if (indexPath.row == 11) {
+        [[GCDManager sharedInstance] GCDBarriar];
     }
 }
 

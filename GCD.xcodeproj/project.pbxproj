@@ -21,6 +21,7 @@
 		DE58F65621DC6E8000FFB06B /* GCDManager+GCDLock_Synchronized.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCDManager+GCDLock_Synchronized.h"; sourceTree = "<group>"; };
 		DE58F65721DC861100FFB06B /* GCDManager+GCDLock_NSLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCDManager+GCDLock_NSLock.h"; sourceTree = "<group>"; };
 		DE58F65821DCB6BE00FFB06B /* GCDManager+GCDPriority.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCDManager+GCDPriority.h"; sourceTree = "<group>"; };
+		DE73129C21E4439D008E3250 /* GCDManager+GCDBarriar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCDManager+GCDBarriar.h"; sourceTree = "<group>"; };
 		DE76DF4121D4A5E600B2B0A1 /* GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE76DF4421D4A5E600B2B0A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE76DF4521D4A5E700B2B0A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 				DE58F65621DC6E8000FFB06B /* GCDManager+GCDLock_Synchronized.h */,
 				DE58F65721DC861100FFB06B /* GCDManager+GCDLock_NSLock.h */,
 				DE58F65821DCB6BE00FFB06B /* GCDManager+GCDPriority.h */,
+				DE73129C21E4439D008E3250 /* GCDManager+GCDBarriar.h */,
 				DE76DF4A21D4A5E700B2B0A1 /* Main.storyboard */,
 				DE76DF4D21D4A5EA00B2B0A1 /* Assets.xcassets */,
 				DE76DF4F21D4A5EA00B2B0A1 /* LaunchScreen.storyboard */,
